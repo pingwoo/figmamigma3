@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: normal;
+}
+
+input, button{
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+}
+
+input:focus, button:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+list-style: none;
+}
