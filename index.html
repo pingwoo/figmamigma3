@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Aibolit</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="navigation_icon">
+            <img src="img/icons/logo.svg" alt="logo">
+        </div>
+        <div class="forhamburger">
+            <div class="navigation_text">
+                <ul>
+                    <a href="#"><li>ЛИЧНЫЙ КАБИНЕТ</li></a>
+                    <a href="#"><li>О НАС</li></a>
+                    <a href="#"><li>НОВОСТИ И АКЦИИ</li></a>
+                    <a href="#"><li>КОНТАКТЫ</li></a>
+                    <a href="#"><li>БЛОГ</li></a>
+                </ul>
+            </div>
+            <span class="navigation__place">
+                <span class="navigation__place_icon">
+                    <img src="img/icons/place.svg" alt="place">
+                </span>
+                <button id="modalBtn">
+                    <span class="navigation__place_text">
+                        ВОЛГОГРАД
+                    </span>
+                </button>
+                <div id="Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Ваш город</h2>
+                        <p>Волгоград</p>
+                        <p>Грозный</p>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="navigation_hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="tabs">
+        <div class="tabs__nav">
+            <button class="tabs__nav_btn" type="button" data-tab="#tab_1">1</button>
+            <button class="tabs__nav_btn" type="button" data-tab="#tab_2">2</button>
+            <button class="tabs__nav_btn" type="button" data-tab="#tab_3">3</button>
+            <button class="tabs__nav_btn" type="button" data-tab="#tab_4">4</button>
+            <button class="tabs__nav_btn" type="button" data-tab="#tab_5">5</button>
+            <button class="tabs__nav_btn" type="button" data-tab="#tab_6">6</button>
+        </div>
+
+        <div class="tabs__content">
+            <div class="tabs__content_item" id="tab_1">
+                <div>
+                    <h1>Айболит <br>
+                    круглосуточная <br>
+                    ветклиника</h1>
+                    <a href="#"><p>ЗАПИСАТЬСЯ</p></a>
+                    <div class="tabs__content_item_social">
+                        <a href="#"><img src="img/icons/inst.svg" alt="inst"></a>
+                        <a href="#"><img src="img/icons/fb.svg" alt="fb"></a>
+                        <a href="#"><img src="img/icons/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/icons/youtube.svg" alt="yt"></a>
+                    </div>
+                </div>
+                <div class="img1"></div>
+
+            </div>
+            <div class="tabs__content_item" id="tab_2">
+                <div>
+                    <h1>Комфортные <br>
+                    оборудованные <br>
+                    стационары</h1>
+                    <a href="#"><p>ЗАПИСАТЬСЯ</p></a>
+                    <div class="tabs__content_item_social">
+                        <a href="#"><img src="img/icons/inst.svg" alt="inst"></a>
+                        <a href="#"><img src="img/icons/fb.svg" alt="fb"></a>
+                        <a href="#"><img src="img/icons/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/icons/youtube.svg" alt="yt"></a>
+                    </div>
+                </div>
+                <div class="img2"></div>
+            </div>
+            <div class="tabs__content_item" id="tab_3"> 
+                <div>
+                    <h1>Новейшее <br>
+                    европейское <br>
+                    оборудование</h1>
+                    <a href="#"><p>ЗАПИСАТЬСЯ</p></a>
+                    <div class="tabs__content_item_social">
+                        <a href="#"><img src="img/icons/inst.svg" alt="inst"></a>
+                        <a href="#"><img src="img/icons/fb.svg" alt="fb"></a>
+                        <a href="#"><img src="img/icons/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/icons/youtube.svg" alt="yt"></a>
+                    </div>
+                </div>
+                <div class="img3"></div>
+            </div>
+            <div class="tabs__content_item" id="tab_4"> 
+                <div>
+                    <h1>Собственная <br>
+                    современная <br>
+                    лаборатория</h1>
+                    <a href="#"><p>ЗАПИСАТЬСЯ</p></a>
+                    <div class="tabs__content_item_social">
+                        <a href="#"><img src="img/icons/inst.svg" alt="inst"></a>
+                        <a href="#"><img src="img/icons/fb.svg" alt="fb"></a>
+                        <a href="#"><img src="img/icons/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/icons/youtube.svg" alt="yt"></a>
+                    </div>
+                </div>
+                <div class="img4"></div>
+            </div>
+            <div class="tabs__content_item" id="tab_5"> 
+                <div>
+                    <h1>Аптека и <br>
+                        зоомагазин <br>
+                        по доступным <br>
+                        ценам</h1>
+                        <a href="#"><p>ЗАПИСАТЬСЯ</p></a>
+                    <div class="tabs__content_item_social">
+                        <a href="#"><img src="img/icons/inst.svg" alt="inst"></a>
+                        <a href="#"><img src="img/icons/fb.svg" alt="fb"></a>
+                        <a href="#"><img src="img/icons/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/icons/youtube.svg" alt="yt"></a>
+                    </div>
+                </div>
+                <div class="img5"></div>
+            </div>
+            <div class="tabs__content_item" id="tab_6"> 
+                <div>
+                    <h1>Груминг салон <br>
+                        и косметические <br>
+                        товары</h1>
+                        <a href="#"><p>ЗАПИСАТЬСЯ</p></a>
+                    <div class="tabs__content_item_social">
+                        <a href="#"><img src="img/icons/inst.svg" alt="inst"></a>
+                        <a href="#"><img src="img/icons/fb.svg" alt="fb"></a>
+                        <a href="#"><img src="img/icons/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/icons/youtube.svg" alt="yt"></a>
+                    </div>
+                </div>
+                <div class="img6"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter">
+        <nav>
+            <ul>
+                <li data-f="all">Все</li>
+                <li data-f="inspection" class="text-inspection">Осмотр</li>
+                <li data-f="operation" class="text-operation"> Операции</li>
+                <li data-f="other" class="text-other">Другое</li>
+            </ul>
+        </nav>
+        <div class="filter__block">
+            <div class="filter__block_box inspection">
+                <h1>Терапия</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/1.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box operation">
+                <h1>Хирургия</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/2.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box operation">
+                <h1>Неврология</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/3.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box inspection">
+                <h1>Ортопедия</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/4.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box inspection">
+                <h1>Дерматология</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/5.png" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box inspection">
+                <h1>Офтальмология</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/6.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box inspection">
+                <h1>Кардиология</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/7.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box inspection">
+                <h1>Стоматология</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/8.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box other">
+                <h1>Аптека</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/8.png" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box operation">
+                <h1>Онкология</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/10.svg" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box other">
+                <h1>Лаборатория</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/11.png" alt="pic">
+                </div>
+            </div>
+            <div class="filter__block_box other">
+                <h1>Груминг</h1>
+                <div class="filter__block_box_down">
+                    <p>26 услуг</p>
+                    <img src="img/icons/12.svg" alt="pic">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="slid">
+
+            <h1>История компании</h1>
+            <p>История компании начинается 14 января 1999 года, когда было образовано ООО «Чижи». 
+                Идея пришла, т.к. у основателя компании Прозор Жанны Георгиевны была собака 
+                боксёр по кличке Бард…</p>
+            <a href="#">ЧИТАТЬ ДАЛЕЕ</a>
+            <h1>Наши специалисты</h1>
+
+            <div class="slider">
+                <div >
+                    <img src="img/icons/prev.png" alt="icon" class="slider__prev controlls">
+                </div>
+
+                <img src="img/Rectangle Copy 19.png" alt="slider" class="slider-img">
+                <img src="img/Rectangle Copy 21.png" alt="slider" class="slider-img">
+                <img src="img/Rectangle Copy 36.png" alt="slider" class="slider-img">
+                
+                
+                <div >
+                    <img src="img/icons/next.png" alt="icon" class="slider__next controlls">
+                </div>
+            </div>
+
+            <a href="#">ПОСМОТРЕТЬ ВСЕХ</a>
+
+        </div>
+    </div>
+
+
+    <div class="easy">
+        <h1>1 150 000</h1>
+        <p>питомцам мы помогли <br>
+        за 18 лет работы</p>
+        <img src="img/image_bird.png" alt="bird">
+    </div>
+
+    <div class="acc">
+        <h1>Почему хозяева выбирают нас?</h1>
+        <div class="acc__box">
+            <div class="acc__box__label">
+                Работаем круглосуточно
+            </div>
+            <div class="acc__box__content">
+                <div class="acc__box__content_1">
+                    <img src="img/acc1.png" alt="acc">
+                    <p>Мы готовы в любое время суток принять домашних питомцев и их хозяев</p>
+                </div>
+            </div>
+        </div>
+        <div class="acc__box">
+            <div class="acc__box__label">
+                Широкий спектр услуг
+            </div>
+            <div class="acc__box__content">
+                <div class="acc__box__content_1">
+                    <img src="img/acc2.png" alt="acc">
+                    <p>Кроме широкопрофильных докторов  в клинике развиты узкие направления в ветеринарии</p>
+                </div>
+            </div>            
+        </div>
+        <div class="acc__box">
+            <div class="acc__box__label">
+                Большой опыт
+            </div>
+            <div class="acc__box__content">
+                <div class="acc__box__content_1">
+                    <img src="img/acc3.png" alt="acc">
+                    <p>Ветеринарная помощь уже на протяжении 18 лет!</p>
+                </div>
+            </div>
+        </div>
+        <div class="acc__box">
+            <div class="acc__box__label">
+                Собственная лаборатория
+            </div>
+            <div class="acc__box__content">
+                <div class="acc__box__content_1">
+                    <img src="img/acc4.png" alt="acc">
+                    <p>Оборудованная профессиональным оснащением производства компании IDEXX</p>
+                </div>
+            </div>
+        </div>
+        <div class="acc__box">
+            <div class="acc__box__label">
+                Оснащенные стационары
+            </div>
+            <div class="acc__box__content">
+                <div class="acc__box__content_1">
+                    <img src="img/acc5.png" alt="acc">
+                    <p>Обычный и инфекционный стационар с индивидуальным подогревом каждой клетки</p>
+                </div>
+            </div>
+        </div>
+        <div class="acc__box">
+            <div class="acc__box__label">
+                Новейшее оборудование
+            </div>
+            <div class="acc__box__content">
+                <div class="acc__box__content_1">
+                    <img src="img/acc7.png" alt="acc">
+                    <p>Помимо лабораторного оборудования и цифрового рентгена в клинике используется современный эндоскоп</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="easy2">
+        <div class="easy2__text">
+            <p>скоро</p>
+            <h1>Удобное приложение <br>
+                для питомцев и <br>
+                их хозяев</h1>
+            <div class="easy2__text_pics">
+                <img src="img/icons/apple.png" alt="pic">
+                <img src="img/icons/google-play-badge.png" alt="pic">
+            </div>
+        </div>
+        <div class="easy2__pic">
+            <img src="img/icons/dog.png" alt="dog">
+        </div>
+    </div>
+
+    <div class="easy3">
+        <h1>Контакты</h1>
+        <div class="easy3__main">
+            <div class="easy3__main_text">
+                <h2>Айболит на Краснополянской</h2>
+                <span><img src="img/icons/place2.png" alt="icon">Дзержинский район, 
+                    ул. Краснополянская, 30</span>
+                <span><img src="img/icons/phone.png" alt="icon">96 22 92</span>
+                <span><img src="img/icons/clock.png" alt="icon">Круглосуточно</span>
+
+                <h2>Айболит на Тулака</h2>
+                <span><img src="img/icons/place2.png" alt="icon">Советский район, 
+                    ул. Карла Маркса, 7</span>
+                <span><img src="img/icons/phone.png" alt="icon">96 22 92</span>
+                <span><img src="img/icons/clock.png" alt="icon">Круглосуточно</span>
+            </div>
+            <div class="easy3__main_map">
+                <img src="img/icons/map.png" alt="map">
+            </div>
+        </div>
+    </div>
+
+    <div class="easy4">
+            <h1>Айболит</h1>
+            <p>Ветеринарная клиника</p>
+            <div class="easy4__list">
+                <div class="easy4__list_1">
+                    <ul>
+                        <a href="#"><li>Политика <br>
+                            конфиденциальности <br>
+                            в отношении обработки <br>
+                            персональных данных</li></a>
+                    </ul>
+                </div>
+                
+                <div class="easy4__list_1">
+                    <ul>
+                        <a href="#"><li>Главная</li></a>
+                        <a href="#"><li>Услуги и цены</li></a>
+                        <a href="#"><li>История компании</li></a>
+                    </ul>
+                </div>
+                
+                <div class="easy4__list_1">
+                    <ul>
+                        <a href="#"><li>Отзывы</li></a>
+                        <a href="#"><li>Контакты</li></a>
+                        <a href="#"><li>Груминг-салон</li></a>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/acc.js"></script>
+    <script src="js/modal.js"></script>
+    
+</body>
+</html>

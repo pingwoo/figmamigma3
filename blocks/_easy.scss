@@ -1,0 +1,120 @@
+.easy{
+    padding-top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 280px;
+
+    h1{
+        font-size: 144px;
+        color: $black;
+    }
+    p{
+        font-size: 50px;
+        color: $black;
+        margin: 30px auto 80px;
+        line-height: 90px;
+    }
+}
+
+.easy2{
+    background-color: $orange;
+    height: 1080px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 235px;
+
+    &__text{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 40px;
+
+        p{
+            color: white;
+            font-size: 20px;
+        }
+        h1{
+            color: white;
+            font-size: 60px;
+        }
+
+        &_pics{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.easy3{
+    padding-bottom: 209px;
+    h1{
+        color: $black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    &__main{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        &_text{
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                color: $black;
+                font-size: 30px;
+                margin-bottom: 30px;
+
+                &:nth-of-type(2){
+                    margin-top: 50px;
+                }
+            }
+
+            span{
+                display: flex;
+                align-items: center;
+                color: #59443F;
+            }
+        }
+    }
+}
+
+.easy4{
+    height: 500px;
+    background-color: #59443F;
+    padding-left: 300px;
+    padding-top: 80px;
+
+    h1{
+        font-size: 50px;
+        color: white;
+        margin: 0 0 20px;
+    }
+
+    p{
+        margin-bottom: 40px;
+        color: white;
+        font-size: 20px;
+    }
+    &__list{
+        display: flex;
+        gap: 50px;
+
+        ul{
+            a{
+                li{
+                    color: white;
+                    font-size: 20px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+}
